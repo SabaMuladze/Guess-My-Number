@@ -31,7 +31,7 @@ checkBtn.addEventListener('click', () => {
         score.innerHTML -= 1;
 
         if (score.textContent < 1) {
-            message.innerHTML = '😭 You Lose 😭';
+            message.innerHTML = '😭 You Lost 😭';
             score.innerHTML = 0;
             document.body.style.backgroundColor = 'red';
 
